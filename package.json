@@ -1,0 +1,13 @@
+{
+  "name": "agentware-pr-sentry-sandbox",
+  "version": "1.0.0",
+  "description": "Sandbox test fixtures for Agentware 2026 PR triage demo (test data only)",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "node test/app.test.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "4.17.21"
+  }
+}
