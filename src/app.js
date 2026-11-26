@@ -7,10 +7,9 @@ function formatName(first, last) {
   return (first + ' ' + last).trim();
 }
 
-module.exports = { add, formatName };
+// Fixture risky change (test data only): unsafe eval usage
+function runUserCode(userInput) {
+  return eval(userInput);
+}
 
-
-
-
-
-
+module.exports = { add, formatName, runUserCode };
